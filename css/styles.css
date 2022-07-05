@@ -14,7 +14,7 @@ body {
 header {
   border-top: 5px solid #ff7500;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -40,8 +40,18 @@ header {
 
 .sitenav-list {
   display: flex;
-  list-style: none;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
+  list-style: none;
+}
+
+.sitenav-item {
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+  margin-right: 0;
 }
 
 .sitenav-link {
@@ -105,10 +115,14 @@ header {
   width: 80px;
   height: 3px;
   border: none;
+  margin: 0;
+  margin-bottom: 40px;
   background-color: #ff7500;
 }
 
 .hero-heading {
+  margin: 0;
+  margin-bottom: 24px;
   font-size: 40px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Aria;", sans-serif;
